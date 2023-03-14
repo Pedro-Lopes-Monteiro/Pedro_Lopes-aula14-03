@@ -1,0 +1,40 @@
+.reprovado{
+    color: red;
+}
+.aprovado{
+    color: darkgreen;
+}
+
+
+body{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+}
+table{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+td.reprovado:hover{
+    background-color: lightcoral;
+}
+td.aprovado:hover{
+    background-color: lightgreen;
+}
+thead{
+    font-weight: bold;
+    background-color: gray;
+}
+td{
+    padding: 10px;
+}
+.students tr:nth-child(even) {
+    background-color: lightgray;
+}
+main{
+    margin: 20px;
+}
